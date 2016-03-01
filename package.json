@@ -1,0 +1,19 @@
+{
+  "name": "deal_finder",
+  "version": "1.0.0",
+  "description": "It's like that site you bought that deal from, used it, and then was like ohhh snap! Good deal!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/antwisted/deal_finder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antwisted/deal_finder/issues"
+  },
+  "homepage": "https://github.com/antwisted/deal_finder#readme"
+}
