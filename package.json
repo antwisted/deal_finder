@@ -17,6 +17,10 @@
   "bugs": {
     "url": "https://github.com/antwisted/deal_finder/issues"
   },
+  "engines": {
+    "node": "~5.5.0",
+    "npm": "~3.3.12"
+  },
   "homepage": "https://github.com/antwisted/deal_finder#readme",
   "dependencies": {
     "body-parser": "~1.13.2",
@@ -24,6 +28,7 @@
     "debug": "~2.2.0",
     "ejs": "~2.3.3",
     "express": "~4.13.1",
+    "express-ejs-layouts": "^2.0.0",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0"
   }

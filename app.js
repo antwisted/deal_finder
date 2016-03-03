@@ -1,5 +1,6 @@
 // Require framework & middleware
 var express = require('express');
+var expressLayouts = require('express-ejs-layouts')
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
@@ -16,7 +17,9 @@ var app = express();
 // View engine setup
 app.set('views', path.join(__dirname, 'app', 'views'));
 app.set('view engine', 'ejs');
+// app.set('layout', 'myLayout');
 
+// app.use(expressLayouts);
 app.use(favicon(path.join(__dirname, 'public', 'images', 'exclamation-mark-favicon.png')));
 app.use(logger('dev'));
 app.use(bodyParser.json());
