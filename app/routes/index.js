@@ -1,6 +1,5 @@
 var express = require('express');
 var router = express.Router();
-// var layoutController = require('../controllers/layout');
 var locationsController = require('../controllers/locations');
 var miscController = require('../controllers/misc');
 
