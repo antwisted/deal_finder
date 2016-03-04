@@ -1,8 +1,49 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/* Reset && Foundation */
+* {
+	font-size: 100%;
+	font: inherit;
+	border: 0;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	vertical-align: baseline;
 }
 
-a {
-  color: #00B7FF;
+/* 3em ~= 50px / 1em ~= 16px / .25em ~= 4px */
+body {
+  padding: 3em;
+  font: 10.5pt "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+/* Custom CSS */
+/*
+.black-footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background: #000;
+	margin-top: 1em;
+}
+*/
+
+.shift-right {
+	margin-left: 3em;
+}
+
+.review {
+	/*padding-bottom: 2em !important;*/
+}
+
+.panel-body.review-container {
+	padding-top: .5em;
+}
+
+.review-header {
+	margin-bottom: .25em !important;
+}
+
+.reviewAuthor {
+	margin: 0 1em;
+	color: #efac8e;
 }
