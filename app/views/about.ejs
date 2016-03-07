@@ -7,4 +7,4 @@
 					</div>
 				<div class="row">
 					<div class="col-md-6 col-sm-12">
-						<p><%= page.content %></p>
+						<p><%- page.content.replace(/\n/g, '<br /><br />') %></p>

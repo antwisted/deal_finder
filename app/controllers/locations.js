@@ -98,7 +98,9 @@ module.exports.homeList = function (req, res){
 module.exports.locationInfo = function (req, res){
 	res.render('locationInfo', {
 		title: 'Deal Finder - Location Info',
-		header: { title: "Dan's Place" }
+		header: { title: "Dan's Place" },
+		body: {},
+		review: {}
 	}); 
 };
 
