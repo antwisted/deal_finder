@@ -58,36 +58,39 @@ module.exports.locationInfo = function (req, res){
 			rating: "3",
 			address: "125 High Street, New York, 10001",
 			hours: [
-			{
-				days: "Monday - Friday",
-				hours: "7:00am - 7:00pm",
-				closed: false
-			},
-			{
-				days: "Saturday",
-				hours: "8:00am - 5:00pm",
-				closed: false
-			},
-			{
-				days: "Sunday",
-				closed: true
-			}],
+				{
+					days: "Monday - Friday",
+					hours: "7:00am - 7:00pm",
+					closed: false
+				},
+				{
+					days: "Saturday",
+					hours: "8:00am - 5:00pm",
+					closed: false
+				},
+				{
+					days: "Sunday",
+					closed: true
+				}
+			],
 			attributes: ["Hot drinks", "Food", "Premium wifi"],
 			cord1: "51.455041",
 			cord2: "-0.9690884"
 		},
-		reviews: [{
-			rating: 4,
-			author: "Philly B.",
-			timestamp: "February 03 2016",
-			body: "It was fine, but coffee was a bit dull. Nice atmosphere."
-		},
-		{
-			rating: 3,
-			author: "Tom B.",
-			timestamp: "February 03 2016",
-			body: "I asked for her number. She said no."
-		}],
+		reviews: [
+			{
+				rating: 4,
+				author: "Philly B.",
+				timestamp: "February 03 2016",
+				body: "It was fine, but coffee was a bit dull. Nice atmosphere."
+			},
+			{
+				rating: 3,
+				author: "Tom B.",
+				timestamp: "February 03 2016",
+				body: "I asked for her number. She said no."
+			}
+		],
 		sidebar: {
 			one: "Dan's place is on Deal Finder because it has a get $50 for $25 offer.\n",
 			two: "If you've been and you like it - or if you don't - please leave a review to help other people just like you.\n"

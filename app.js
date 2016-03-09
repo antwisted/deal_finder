@@ -1,12 +1,15 @@
 // Require framework & middleware
 var express = require('express');
-var engine = require('ejs-locals')
+var engine = require('ejs-locals');
 var path = require('path');
+var mongoose = require('mongoose');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var pry = require('pryjs');
+
+// Add database
+require('./app/models/db');
 
 // Route variables
 var routes = require('./app/routes/index');
