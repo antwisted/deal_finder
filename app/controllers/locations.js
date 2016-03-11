@@ -12,7 +12,7 @@ module.exports.homeList = function (req, res){
 		locations: [
 			{
 				name: "Ester's SmokeShack",
-				address: "125 High Street, New York, 10001",
+				address: "789 Woods Lane, New York, 10001",
 				rating: 3,
 				attributes: ["BBQ", "Beer specials", "Premium Sports HD"],
 				distance: "100m"
@@ -74,8 +74,8 @@ module.exports.locationInfo = function (req, res){
 				}
 			],
 			attributes: ["Hot drinks", "Food", "Premium wifi"],
-			cord1: "51.455041",
-			cord2: "-0.9690884"
+			cord1: "-0.9690884",
+			cord2: "51.455041"
 		},
 		reviews: [
 			{
