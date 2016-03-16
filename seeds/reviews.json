@@ -1,0 +1,86 @@
+/* Garbage File */
+db.locations.update({ header: "Shawn's Dive Bar" }, { $push: { reviews: { "rating": 4, "id": ObjectId(), "author": "Philly B.", "timestamp": "new Date('Feb 3, 2016')", "body": "It was fine, but coffee was a bit dull. Nice atmosphere." } } });
+
+{
+		"reviews": [
+			{
+				"rating": 4,
+				"id": ObjectId(),
+				"author": "Billy D.",
+				"timestamp": "new Date('Feb 3, 2016')",
+				"body": "Beer specials were too short. Great ribs though!"
+			},
+			{
+				"rating": 5,
+				"id": ObjectId(),
+				"author": "Tom B.",
+				"timestamp": "new Date('Feb 23, 2016')",
+				"body": "I asked her to change the channel. She said no."
+			}
+		],
+
+		"reviews": [
+			{
+				"rating": 4,
+				"id": ObjectId(),
+				"author": "Philly B.",
+				"timestamp": "new Date('Feb 3, 2016')",
+				"body": "It was fine, but coffee was a bit dull. Nice atmosphere."
+			},
+			{
+				"rating": 3,
+				"id": ObjectId(),
+				"author": "Tom B.",
+				"timestamp": "new Date('Feb 23, 2016')",
+				"body": "I asked for her number. She said no."
+			}
+		]
+
+			// "reviews": [
+		// 	{
+		// 		"rating": 5,
+		// 		"id": ObjectId(),
+		// 		"author": "Jacob G.",
+		// 		"timestamp": "new Date('Feb 3, 2016')",
+		// 		"body": "Whoa! The music here is wicked good. Definitely going again."
+		// 	},
+		// 	{
+		// 		"rating": 4,
+		// 		"id": ObjectId(),
+		// 		"author": "Tom B.",
+		// 		"timestamp": "new Date('Feb 23, 2016')",
+		// 		"body": "I asked to play her a tune. She said no."
+		// 	}
+		// ]
+
+				// "reviews": [
+		// 	{
+		// 		"rating": 4,
+		// 		"id": ObjectId(),
+		// 		"author": "Dante Z.",
+		// 		"timestamp": "new Date('Feb 3, 2016')",
+		// 		"body": "I had the clam, the lobster, and the flounder. They were all delish."
+		// 	},
+		// 	{
+		// 		"rating": 5,
+		// 		"id": ObjectId(),
+		// 		"author": "Tom B.",
+		// 		"timestamp": "new Date('Feb 23, 2016')",
+		// 		"body": "I asked for her address. She said no."
+		// 	}
+		// ]
+
+			// "reviews": [
+		// 	{
+		// 		"rating": 5,
+		// 		"id": ObjectId(),
+		// 		"author": "Bryan M.",
+		// 		"timestamp": "new Date('Feb 3, 2016')",
+		// 		"body": "Someone tried to start a fight, but I immediately stared both of them down. I look like Chuck Norris."
+		// 	},
+		db.locations.update({ header: "Shawn's Dive Bar" }, { $push: { reviews: {
+				"rating": 4,
+				"id": ObjectId(),
+				"author": "Tom B.",
+				"timestamp": "new Date('Feb 23, 2016')",
+				"body": "I asked her if I look like Chuck Norris. She said no.} } });

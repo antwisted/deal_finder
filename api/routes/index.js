@@ -6,17 +6,16 @@ var reviewsCtrl = require('../controllers/reviews');
 // router.get('/', mainController.index);
 
 /* Location CRUD */
-router.get('/location', locationsCtlr.getList);
-router.post('/location', locationsCtlr.addLocal);
-router.get('/location/:locationID', locationsCtlr.getLocal);
-router.put('/location/:locationID', locationsCtlr.updateLocal);
-router.delete('/location/:locationID', locationsCtlr.deletLocal);
-
+router.get('/location', locationsCtrl.getList);
+router.post('/location', locationsCtrl.addLocal);
+router.get('/location/:locationID', locationsCtrl.getLocal);
+router.put('/location/:locationID', locationsCtrl.updateLocal);
+router.delete('/location/:locationID', locationsCtrl.deleteLocal);
 
 /* Review CRUD */
-router.post('/location/:locationID/review', reviewsCtlr.addReview);
-router.get('/location/:locationID/review/:reviewID', reviewsCtlr.getReview);
-router.put('/location/:locationID/review/:reviewID', reviewsCtlr.updateReview);
-router.delete('/location/:locationID/review/:reviewID', reviewsCtlr.deleteReview);
+router.post('/location/:locationID/review', reviewsCtrl.addReview);
+router.get('/location/:locationID/review/:reviewID', reviewsCtrl.getReview);
+router.put('/location/:locationID/review/:reviewID', reviewsCtrl.updateReview);
+router.delete('/location/:locationID/review/:reviewID', reviewsCtrl.deleteReview);
 
 module.exports = router;
