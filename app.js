@@ -9,9 +9,10 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 // Add database
-require('./app/models/db');
+require('./api/models/db');
 
 // Route variables
+var apiRoutes = require('./api/routes/index')
 var routes = require('./app/routes/index');
 var users = require('./app/routes/users');
 
